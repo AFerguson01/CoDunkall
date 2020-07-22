@@ -227,7 +227,7 @@ button{
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top: 32%;
+    top: 35%;
 
 }
 .services-section .service div{
@@ -258,5 +258,13 @@ button{
 @media screen and (max-width: 1200px){
     .services-section .service{
         width: 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .services-section{
+        width: 90%;
+    }
+    .services-section .service div button{
+        width: 80%;
     }
 }
